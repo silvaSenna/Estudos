@@ -51,6 +51,11 @@ test('subtrair', () => {
   expect(somar).toBe(3)
 })
 
+test('teste 03', () => {
+  const soma = exemploMock.somar(2, 3)
+  expect(soma).toBe(5)
+})
+
 afterEach(() => {
   jest.useRealTimers()
 })
